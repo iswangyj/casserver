@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.jasig.cas.dao.ServiceMapper">
+    <resultMap id="BaseResultMap" type="org.jasig.cas.entity.Service">
+        <id column="ID" property="id" jdbcType="INTEGER"/>
+        <result column="PRIVILEGE_SYMBOL" property="privilegeSymbol" jdbcType="VARCHAR"/>
+        <result column="NAME" property="name" jdbcType="VARCHAR"/>
+        <result column="URL" property="url" jdbcType="VARCHAR"/>
+        <result column="SYMBOL" property="symbol" jdbcType="VARCHAR"/>
+        <result column="ENABLED" property="enabled" jdbcType="INTEGER"/>
+        <result column="CREATED_AT" property="createAt" jdbcType="TIMESTAMP"/>
+        <result column="UPDATED_AT" property="updateAt" jdbcType="TIMESTAMP"/>
+        <result column="DELETED_AT" property="deleteAt" jdbcType="TIMESTAMP"/>
+        <association property="provider" column="PROVIDER_ID" javaType="org.jasig.cas.entity.Provider">
+            <id column="PID" property="id" jdbcType="INTEGER"/>
+            <result column="NAME" property="name" jdbcType="VARCHAR"/>
+            <result column="SYMBOL" property="symbol" jdbcType="VARCHAR"/>
+            <result column="P_CREATED_AT" property="createdAt" jdbcType="TIMESTAMP"/>
+            <result column="P_UPDATED_AT" property="updatedAt" jdbcType="TIMESTAMP"/>
+            <result column="P_DELETED_AT" property="deletedAt" jdbcType="TIMESTAMP"/>
+        </association>
+    </resultMap>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select
+        S.ID,
+        S.PRIVILEGE_SYMBOL,
+        S.NAME,
+        S.URL,
+        S.ENABLED,
+        S.SYMBOL,
+        S.CREATED_AT,
+        S.UPDATED_AT,
+        S.DELETED_AT,
+        P.ID AS PID,
+        P.NAME,
+        P.SYMBOL,
+        P.CREATED_AT AS P_CREATED_AT,
+        P.UPDATED_AT AS P_UPDATED_AT,
+        P.DELETED_AT AS P_DELETED_AT
+        from SPP_SERVICE S, SPP_PROVIDER P
+        where S.PROVIDER_ID = P.ID AND S.ID = #{id,jdbcType=INTEGER}
+        order by S.ID DESC
+    </select>
+
+    <select id="selectServiceList" resultMap="BaseResultMap">
+        select
+        S.ID,
+        S.PRIVILEGE_SYMBOL,
+        S.NAME,
+        S.URL,
+        S.ENABLED,
+        S.SYMBOL,
+        S.CREATED_AT,
+        S.UPDATED_AT,
+        S.DELETED_AT,
+        P.ID AS PID,
+        P.NAME,
+        P.SYMBOL,
+        P.CREATED_AT AS P_CREATED_AT,
+        P.UPDATED_AT AS P_UPDATED_AT,
+        P.DELETED_AT AS P_DELETED_AT
+        from SPP_SERVICE S, SPP_PROVIDER P
+        where S.PROVIDER_ID = P.ID
+        order by S.ID DESC
+    </select>
+</mapper>

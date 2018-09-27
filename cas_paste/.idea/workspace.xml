@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cas_paste:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9795a5a4-3c47-4563-b7cf-858756b5bcd9" name="Default" comment="[INIT]">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cas_paste_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cas_paste.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/cas-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/cas.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/cas-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/cas.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/cas-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/cas.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/cas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/login_bak1007.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/cas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/login_bak1007.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/confirm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/green.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/ja-sig-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/key-point_bl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/key-point_br.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/key-point_tl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/key-point_tr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/error4loginview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/input-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/login-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/application1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/application2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/application3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/application4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/arrange_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/arrow-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/arrow-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/end_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/feedBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/feedback_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/header_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/header_logo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/header_logo_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/information.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/left_arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/login_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/login_title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/mine_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/more.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/msg_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_backstage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_backstage_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_home_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_mine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_mine_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_panel_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/psw_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/right_arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/search_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/search_icon_h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/skin_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/user_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/workList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/red.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/js/cas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/js/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/js/jquery.jslides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/js/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/js/pub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/cas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/login_bak1007.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/confirm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/green.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/ja-sig-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/key-point_bl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/key-point_br.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/key-point_tl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/key-point_tr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/error4loginview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/input-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/login-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/application1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/application2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/application3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/application4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/arrange_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/arrow-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/arrow-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/end_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/feedBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/feedback_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/header_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/header_logo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/header_logo_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/information.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/left_arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/login_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/login_title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/mine_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/more.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/msg_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_backstage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_backstage_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_home_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_mine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_mine_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/nav_panel_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/psw_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/right_arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/search_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/search_icon_h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/skin_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/user_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/login02/workList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/images/red.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/js/cas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/js/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/js/jquery.jslides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/js/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/classes/artifacts/cas_paste_war_exploded/js/pub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casConfirmView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casExpiredPassView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casGenericSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casLoginMessageView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casLoginView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casLoginView_bak1007.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casLoginView_tonglian.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casLoginView_zgj.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casLoginView_zgj_bak20170906.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casLogoutView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/casMustChangePassView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/includes/bottom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/includes/bottom_bak1007.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/includes/bottom_zgj.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/includes/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/includes/top_bak1007.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/includes/top_zgj.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/serviceErrorSsoView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/default/ui/serviceErrorView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/errors.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/monitoring/viewStatistics.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/2.0/casProxyFailureView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/2.0/casProxySuccessView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/2.0/casServiceValidationFailure.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/2.0/casServiceValidationSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/3.0/casServiceValidationFailure.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/3.0/casServiceValidationSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/casPostResponseView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/clearPass/clearPassFailure.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/clearPass/clearPassSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/oauth/confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/openid/casOpenIdAssociationFailureView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/openid/casOpenIdAssociationSuccessView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/openid/casOpenIdServiceFailureView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/openid/casOpenIdServiceSuccessView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/view/jsp/protocol/openid/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/css/cas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/css/login_bak1007.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/confirm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/green.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/ja-sig-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/key-point_bl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/key-point_br.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/key-point_tl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/key-point_tr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/error4loginview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/input-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/login-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/application1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/application2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/application3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/application4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/arrange_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/arrow-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/arrow-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/end_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/feedBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/feedback_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/header_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/header_logo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/header_logo_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/information.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/left_arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/login_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/login_title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/mine_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/more.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/msg_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/nav_backstage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/nav_backstage_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/nav_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/nav_home_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/nav_mine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/nav_mine_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/nav_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/nav_panel_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/psw_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/right_arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/search_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/search_icon_h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/skin_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/user_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/login02/workList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/images/red.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/js/cas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/js/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/js/jquery.jslides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/js/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/cas_paste_war_exploded/js/pub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/test/SlirnTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/ume/CasLoginTypeTreat$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/ume/CasLoginTypeTreat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/ume/CasLoginTypeTreatSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/ume/TestUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/ume/UmeUserAttributesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/ume/framework/plugin/sessionman/SessionListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/ume/framework/plugin/sessionman/SessionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/ume/framework/plugin/sessionman/ShowMemoryContent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/ume/framework/plugin/sessionman/structure/SessionData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/com/ume/framework/plugin/sessionman/structure/Settings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/mapping/ProviderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/mapping/ServiceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/mapping/SppUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/CasVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/CentralAuthenticationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/CentralAuthenticationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/adaptors/jdbc/QueryDatabaseAuthenticationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/aspect/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/audit/spi/CredentialsAsFirstParameterResourceResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/audit/spi/ServiceManagementResourceResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/audit/spi/ServiceResourceResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/audit/spi/TicketAsFirstParameterResourceResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/audit/spi/TicketOrCredentialPrincipalResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AbstractAuthenticationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AbstractCredential.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AcceptAnyAuthenticationPolicyFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AcceptAnyAuthenticationPolicyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AcceptUsersAuthenticationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AccountDisabledException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AccountPasswordMustChangeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AllAuthenticationPolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AnyAuthenticationPolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/Authentication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AuthenticationBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/AuthenticationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/org/jasig/cas/authentication/ContextualAuthenticationPolicy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1493022140">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ico" value="1" />
+          <entry key="java" value="9" />
+          <entry key="jsp" value="3" />
+          <entry key="properties" value="6" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="9" />
+          <entry key="JSP" value="3" />
+          <entry key="Properties" value="6" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+    <session id="1015348460">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cas_paste" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fs_org_person</find>
+      <find>viewServiceErrorView</find>
+      <find>sqlGetUsernameByUserSn</find>
+      <find>sqlUserInfo</find>
+      <find>logout</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>spp_user</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../spring-restdocs-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/flow/TicketGrantingTicketCheckAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/init/SafeDispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/support/AbstractArgumentExtractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/support/AbstractInMemoryThrottledSubmissionHandlerInterceptorAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/support/AbstractThrottledSubmissionHandlerInterceptorAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/support/ArgumentExtractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/support/CasArgumentExtractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/support/InMemoryThrottledSubmissionByIpAddressAndUsernameHandlerInterceptorAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/support/InMemoryThrottledSubmissionByIpAddressHandlerInterceptorAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/support/InspektrThrottledSubmissionByIpAddressAndUsernameHandlerInterceptorAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/support/CookieRetrievingCookieGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/ticket/registry/support/kryo/KryoTranscoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/ticket/registry/support/kryo/serial/GoogleAccountsServiceSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/ticket/registry/support/kryo/serial/SamlServiceSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/ticket/registry/support/NoOpLockingStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/view/AbstractCasView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/view/Cas10ResponseView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/view/CasReloadableMessageBundle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/audit/spi/CredentialsAsFirstParameterResourceResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/audit/spi/ServiceManagementResourceResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/audit/spi/ServiceResourceResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/audit/spi/TicketOrCredentialPrincipalResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/authentication/principal/RememberMeAuthenticationMetaDataPopulator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/authentication/principal/ShibbolethCompatiblePersistentIdGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/authentication/principal/SimpleWebApplicationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/authentication/handler/DefaultPasswordEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/authentication/handler/NoOpPrincipalNameTransformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/authentication/handler/support/HttpBasedServiceCredentialsAuthenticationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/logout/LogoutManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/logout/SamlCompliantLogoutMessageCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-configuration/log4jConfiguration.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/CentralAuthenticationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/init/SafeContextLoaderListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/audit/spi/TicketAsFirstParameterResourceResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/aspect/LogAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/flow/InitialFlowSetupAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/support/WebUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/adaptors/jdbc/QueryDatabaseAuthenticationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/services/ume/V3Encipher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/flow/AuthenticationViaFormAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/logout-webflow.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tongweb-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-configuration/ticketRegistry.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/default/ui/casGenericSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/web/ServiceValidateController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jasig/cas/entity/SppUser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/SppUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/deployerConfigContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ume/UmeUserAttributesDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/cas-servlet.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\dev\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="-8" />
+    <option name="width" value="1864" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cas" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cas" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas_paste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas_paste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shang\Desktop\cas_paste\src\main\webapp" />
+      <recent name="C:\Users\shang\Desktop\cas_paste\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ume.framework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SXL\Desktop\cas_paste\src\main\resources" />
+      <recent name="C:\Users\SXL\Desktop\cas_paste\src\main\webapp\WEB-INF\view\jsp" />
+      <recent name="C:\Users\SXL\Desktop\cas_paste\src\main\webapp\WEB-INF\view\jsp\default\ui" />
+      <recent name="C:\Users\SXL\Desktop\cas_paste\src\main\java\org\jasig\cas" />
+      <recent name="C:\Users\SXL\Desktop\cas_paste\src\main\webapp\WEB-INF\spring-configuration" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="6.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9000/cas/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="cas_paste:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/cas" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_cas_paste" />
+        <option name="HTTP_PORT" value="9000" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4778" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="4779" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cas_paste:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="cas_paste:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_cas_paste" />
+        <option name="HTTP_PORT" value="9000" />
+        <option name="JNDI_PORT" value="1100" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61735" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="61736" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cas_paste:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.6.0" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9795a5a4-3c47-4563-b7cf-858756b5bcd9" name="Default" comment="" />
+      <created>1537851437602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537851437602</updated>
+      <workItem from="1537851439178" duration="297000" />
+      <workItem from="1537851744433" duration="37000" />
+      <workItem from="1537851807939" duration="1431000" />
+      <workItem from="1537853260677" duration="13250000" />
+      <workItem from="1537869851909" duration="3853000" />
+      <workItem from="1537873728417" duration="1640000" />
+      <workItem from="1537929601816" duration="3050000" />
+      <workItem from="1537937447075" duration="7980000" />
+      <workItem from="1537949595296" duration="1040000" />
+      <workItem from="1537951425846" duration="3135000" />
+      <workItem from="1537959444786" duration="207000" />
+      <workItem from="1537959737166" duration="3267000" />
+      <workItem from="1537978709639" duration="3564000" />
+      <workItem from="1537994681071" duration="1708000" />
+      <workItem from="1538052902483" duration="489000" />
+      <workItem from="1538055162069" duration="134000" />
+    </task>
+    <task id="LOCAL-00001" summary="[INIT]">
+      <created>1537979560512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537979560512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45082000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-8" width="1864" height="1096" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892703" visible="true" weight="0.24501109" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50107294" side_tool="true" weight="0.25751072" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3558793" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32939914" />
+      <window_info anchor="bottom" id="Spring" order="16" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.3298647" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32882413" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892703" visible="true" weight="0.22854078" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50107294" side_tool="true" weight="0.25751072" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35691318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40015185" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32939914" />
+      <window_info anchor="bottom" id="Spring" order="16" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32939914" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[INIT]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[INIT]" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/dao/ProviderMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/dao/SppUserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/entity/Service.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/entity/Provider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/services/ume/V3Encipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ServiceMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/authorizationFailure.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/restlet-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/logout-webflow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1011">
+          <caret line="50" column="84" selection-start-line="50" selection-start-column="84" selection-end-line="50" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tongweb-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-configuration/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1803" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/web/flow/InitialFlowSetupAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-webflow-2.3.2.RELEASE.jar!/org/springframework/webflow/engine/Flow.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4536">
+          <caret line="276" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-webflow-2.3.2.RELEASE.jar!/org/springframework/webflow/engine/State.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-configuration/ticketExpirationPolicies.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-configuration/ticketGrantingTicketCookieGenerator.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-configuration/ticketRegistry.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="49" column="92" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/default/ui/casGenericSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/web/flow/AuthenticationViaFormAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ume/CasLoginTypeTreat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1381">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/entity/SppUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/SppUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="152" column="11" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/CentralAuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/CentralAuthenticationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/deployerConfigContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/web/ServiceValidateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/web/casca/Cas4CaLoginServAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/web/casca/CALoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/web/casca/Cas4CaLoginServHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/authentication/UsernamePasswordCredential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ume/UmeUserAttributesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/cas-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="228" column="80" lean-forward="true" selection-start-line="228" selection-start-column="80" selection-end-line="228" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1811" />
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/saml_views.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/protocol_views.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/cas.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/monitoring/viewStatistics.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jsp/default/ui/casAccountDisabledView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/aspect/LogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/adaptors/jdbc/QueryDatabaseAuthenticationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="132" column="42" lean-forward="true" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/logout/LogoutManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/logout/LogoutManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/logout/LogoutMessageCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/logout/LogoutRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/logout/LogoutRequestStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/logout/SamlCompliantLogoutMessageCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jasig/cas/CasVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>cas_paste:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jquery</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cas_paste</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

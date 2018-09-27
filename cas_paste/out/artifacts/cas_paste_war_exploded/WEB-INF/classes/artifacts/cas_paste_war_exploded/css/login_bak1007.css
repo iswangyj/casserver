@@ -1,0 +1,265 @@
+/*样式初始化*/
+html,body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,button,textarea,p,span,table,th,td,from,img {margin:0;padding:0}
+body,input,button,select,textarea {font:12px/1.5 "Microsoft Yahei","WenQuanYi Micro Hei",sans-serif;color:#34495e;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	-moz-font-feature-settings:"liga","kern";}
+body { background:url(../images/login/bg.jpg) no-repeat center top; overflow-x:hidden;}
+table {border-collapse:collapse;border-spacing:0}
+img,a img {border:0;}
+a {color:#369;outline:medium none;text-decoration:none;star:expression(this.onFocus=this.blur())}
+a:hover {text-decoration:none;}
+label {cursor:pointer;}
+ul li,.ol li {list-style:none;}
+em,cite,i {font-style:normal;}
+p {word-break:break-all;} /*全部英文字符下自动换行*/
+
+/* 去除Chrome等浏览器文本框默认发光边框 */
+input:focus, textarea:focus {outline:none;}
+/* 去除IE10+浏览器文本框后面的小叉叉 */
+input::-ms-clear {display:none;}
+/* 禁止多行文本框textarea拖拽 */
+textarea {resize:none;}
+/* 宽度100% */
+.full {
+	width:100% !important;
+}
+
+/* ==全局通用样式== */
+.wrap {
+	width:1000px;
+	margin:auto;
+	position:relative;
+}
+.wrap::before, .wrap::after {
+	clear:both;
+	content:" ";
+	display:block;
+}
+/* 避免因子元素浮动而导致的父元素高度缺失能问题 */
+.clear{ clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0; }
+.cl:after { content:"."; display:block; height:0; clear:both; visibility:hidden; } .cl { zoom:1; }
+.clearfix::before, .clearfix::after {
+	clear:both;
+	content:" ";
+	display:block;
+}
+
+/* 头部 */
+.header {
+	background:url(../images/login/header-bg.png) repeat-x;
+	height:95px;
+	position:relative;
+	z-index:1000;
+}
+.header .wrap {
+	background:url(../images/login/header.png) no-repeat;
+	width:1200px;
+	height:87px;
+	margin:auto;
+	position:absolute;
+	left:50%;
+	margin-left:-600px;
+}
+.header .logo {
+	background:url(../images/login/logo.png) no-repeat;
+	width:590px;
+	height:87px;
+	float:left;
+	margin-left:100px;
+}
+.header .nav {
+	float:right;
+	margin:50px 100px 0 0;
+	color:#fff;
+	font-size:13px;
+}
+.header .nav a {
+	color:#fff;
+}
+.header .nav a:hover {
+	text-decoration:underline;
+}
+
+/*banner*/
+#full-screen-slider { width:100%; height:570px; position:relative; top:-5px;}
+#slides { display:block; width:100%; height:570px; list-style:none; padding:0; margin:0; position:relative}
+#slides li { display:block; width:100%; height:100%; list-style:none; padding:0; margin:0; position:absolute}
+#slides li a { display:block; width:100%; height:100%; text-indent:-9999px}
+#pagination { display:block; list-style:none; position:absolute; left:50%; top:540px; z-index:9900;  padding:5px 15px 5px 0; margin:0}
+#pagination li { display:block; list-style:none; width:10px; height:10px; float:left; margin-left:15px; border-radius:5px; background:#FFF }
+#pagination li a { display:block; width:100%; height:100%; padding:0; margin:0;  text-indent:-9999px;}
+#pagination li.current { background:#0092CE}
+
+/*loginbox*/
+.login-box {
+	background:url(../images/login/login-box.png) no-repeat;
+	width:300px;
+	height:293px;
+	position:absolute;
+	right:-180px;
+	top:-470px;
+	z-index:999;
+	overflow:hidden;
+}
+
+.form-box {
+	padding:83px 24px 10px;
+}
+.form-box .input-bg {
+	background:url(../images/login/input-bg.png) no-repeat;
+	width:252px;
+	height:14px;
+	line-height:14px;
+	margin-bottom:17px;
+	padding:10px 10px;
+	position:relative;
+}
+.form-box .input-bg label {
+	position:absolute;
+	top:-25px;
+	font-size:15px;
+	color:#666;
+}
+.form-box .input-bg i.lock {
+	background:url(../images/login/lock.png) no-repeat;
+	display:block;
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:8px;
+	left:8px;
+}
+.form-box .input-bg i.user {
+	background:url(../images/login/user.png) no-repeat;
+	display:block;
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:8px;
+	left:8px;
+}
+.form-box .input-bg input {
+	border:none;
+	width:180px;
+	height:14px;
+	line-height:14px;
+	position:absolute;
+	left:30px;
+	top:8px;
+	font-size:14px;
+	color:#777;
+}
+.form-box .btn {
+	background:url(../images/login/btn.png) no-repeat;
+	width:252px;
+	height:36px;
+	line-height:36px;
+	display:block;
+	color:#fff;
+	text-align:center;
+	font-size:18px;
+}
+.form-box .change {
+	color:#666;
+	font-size:14px;
+	text-align:right;
+	width:252px;
+	display:block;
+	margin-top:10px;
+}
+.form-box .change:hover {
+	text-decoration:underline;
+}
+
+.footer {
+	background:#0d72b8;
+	border-top:#001f44 solid 5px;
+	height:140px;
+	margin-top:-5px;
+	padding-top:40px;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	line-height:35px;
+	overflow:hidden
+}
+
+.prompt-bar {
+	background:#fef2f2 url(../images/login/error4loginview.png) no-repeat left center;
+	border:#ffa6a8 solid 1px;
+	position:absolute;
+	right:-70px;
+	top:30px;
+	width:500px;
+	height:40px;
+	line-height:40px;
+	text-indent:40px;
+	margin:10px 2%;
+	color:#333;
+	z-index:9999;
+	font-size:14px;
+
+}
+.prompt-bar .error-icon {
+	background:url(../images/login/error.png) no-repeat;
+	width:24px;
+	height:24px;
+	display:inline-block;
+	position:relative;
+	top:6px;
+	margin-right:10px;
+}
+.prompt-bar .close-icon {
+	background:url(../images/login/close.png) no-repeat;
+	width:16px;
+	height:15px;
+	display:block;
+	position:relative;
+	top:13px;
+	margin-right:10px;
+	float:right;
+}
+
+.error-box {
+	width:1200px;
+	height:570px;
+	margin:auto;
+}
+.error-box h2 {
+	position:relative;
+	top:-50px;
+	left:540px;
+	color:#666;
+	font-size:22px;
+	font-weight:normal;
+}
+.error-box p {
+	position:relative;
+	top:-50px;
+	left:540px;
+	color:#666;
+	font-size:18px;
+}
+
+.error-box img {
+	position:relative;
+	top:130px;
+	left:120px;
+}
+.error-box a.btn {
+	background:#f2f2f2;
+	border:#ccc solid 1px;
+	position:relative;
+	border-radius:4px;
+	width:110px;
+	height:32px;
+	line-height:32px;
+	display:block;
+	text-align:center;
+	color:#666;
+	font-size:16px;
+	top:-30px;
+	left:540px;
+	display:none;
+}

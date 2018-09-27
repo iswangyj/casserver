@@ -1,0 +1,111 @@
+/*登录页*/
+body{
+	background-color: #ffffff;
+}
+.login-box{
+	background-color: #ffffff;
+}
+.banner{
+	width: 100%;
+	height: 200px;
+	background: #3f637e url("../images/login02/login_banner.jpg") no-repeat center top;
+}
+.logo{
+	width: 145px;
+	height: 145px;
+	margin: -75px auto 0;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.title{
+	width: 427px;
+	height: 57px;
+	margin: -10px auto 30px;
+	background: url("../images/login02/login_title.jpg") no-repeat center top;
+}
+.content{
+	margin: 0 auto;
+	width: 332px;
+	display: none;
+}
+.input-i{
+	width: 330px;
+	border: 1px solid #e5e5e5;
+	background: #f2f2f4;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+.input-i span{
+	display: block;
+	width: 35px;
+	height: 46px;
+}
+.user-icon{
+	background: url("../images/login02/user_icon.jpg") no-repeat center center;
+}
+.psw-icon{
+	background: url("../images/login02/psw_icon.jpg") no-repeat center center;
+}
+.input-i input{
+	width: 280px;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 5px 0 10px;
+}
+.input-i.current{
+	border: 1px solid #305e82;
+}
+.login-btn{
+	display: block;
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	background: #305e82;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 16px;
+}
+.login-btn:hover,.login-btn:focus{
+	background: #306691;
+}
+.forget1-type{
+	display: inline;
+	text-align: left;
+	float: left;
+	width: 50%;
+	margin-top: 10px;
+}
+.forget2-type{
+	display: inline;
+	text-align: right;
+	float: right;
+	width: 50%;
+	margin-top: 10px;
+}
+.ca-other-type,.user-other-type{
+	display: block;
+	text-align: right;
+	width: 100%;
+	margin-top: 10px;
+}
+.ca-other-type:hover,.user-other-type:hover{
+	text-decoration: underline;
+}
+
+.content.active{
+	display: block;
+}
+.prompt-text{
+	background-color : #fff;
+	color: #ec2222;
+	width: 330px;
+	margin: 30px auto;
+	text-align : center;
+}
+#fm1
+{
+
+}

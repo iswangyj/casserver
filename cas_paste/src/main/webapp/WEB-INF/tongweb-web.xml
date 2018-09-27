@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tongweb-web-app PUBLIC '-//TONGTECH,CO.LTD//DTD TWNS 1.0 Servlet 2.5//EN' 'http://www.tongtech.com/j2ee/dtds/tongweb-web-app_2_5-0.dtd'>
+
+<tongweb-web-app>
+	<property name="useMemcached" value="true" />
+	<property name="memcachedNodes" value="n1:141.3.43.31:11211,n2:141.3.43.32:11211" />
+	<property name="requestUriIgnorePattern" value=".*\.(png|gif|jpg|css|ico)$" />
+	<property name="sessionBackupAsync" value="true" />
+	<property name="sessionBackupTimeout" value="100" />
+	<property name="transcoderFactoryClass" value="de.javakaffee.web.msm.JavaSerializationTranscoderFactory" />
+	<property name="copyCollectionsForSerialization" value="false" />
+</tongweb-web-app>

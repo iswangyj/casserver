@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.jasig.cas.dao.ProviderMapper">
+    <resultMap id="BaseResultMap" type="org.jasig.cas.entity.Provider">
+        <id column="ID" property="id" jdbcType="INTEGER"/>
+        <result column="NAME" property="name" jdbcType="VARCHAR"/>
+        <result column="SYMBOL" property="symbol" jdbcType="VARCHAR"/>
+        <result column="CREATED_AT" property="createdAt" jdbcType="TIMESTAMP"/>
+        <result column="UPDATED_AT" property="updatedAt" jdbcType="TIMESTAMP"/>
+        <result column="DELETED_AT" property="deletedAt" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        ID, NAME, SYMBOL, CREATED_AT, UPDATED_AT, DELETED_AT
+    </sql>
+
+    <insert id="insertSelective" useGeneratedKeys="true" keyProperty="id">
+        insert into SPP_PROVIDER
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                ID,
+            </if>
+            <if test="name != null">
+                NAME,
+            </if>
+            <if test="symbol != null">
+                SYMBOL,
+            </if>
+            <if test="createdAt != null">
+                CREATED_AT,
+            </if>
+            <if test="updatedAt != null">
+                UPDATED_AT,
+            </if>
+            <if test="deletedAt != null">
+                DELETED_AT,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id, jdbcType=INTEGER}
+            </if>
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="symbol != null">
+                #{symbol,jdbcType=VARCHAR},
+            </if>
+            <if test="createdAt != null">
+                #{createdAt,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updatedAt != null">
+                #{updatedAt,jdbcType=TIMESTAMP},
+            </if>
+            <if test="deletedAt != null">
+                #{deletedAt,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective">
+        update SPP_PROVIDER
+        <set>
+            <if test="name != null">
+                NAME = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="symbol != null">
+                SYMBOL = #{symbol,jdbcType=VARCHAR},
+            </if>
+            <if test="createdAt != null">
+                CREATED_AT = #{createdAt,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updatedAt != null">
+                UPDATED_AT = #{updatedAt,jdbcType=TIMESTAMP},
+            </if>
+            <if test="deletedAt != null">
+                DELETED_AT = #{deletedAt,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where ID = #{id,jdbcType=INTEGER}
+    </update>
+
+    <select id="selectProviderList" resultType="org.jasig.cas.entity.Provider">
+        select
+        <include refid="Base_Column_List"/>
+        from SPP_PROVIDER
+        where DELETED_AT is NULL
+        order by ID DESC
+    </select>
+
+    <select id="selectByPrimaryKey" resultType="org.jasig.cas.entity.Provider">
+        select
+        <include refid="Base_Column_List"/>
+        from SPP_PROVIDER
+        where  ID = #{id, jdbcType=INTEGER}
+        order by ID DESC
+    </select>
+</mapper>

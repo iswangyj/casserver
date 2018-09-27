@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<casInterfaces>
+	<interface type="portalPage">
+		<portalPage>http://my.gj.pro</portalPage>
+	</interface>
+	<properties>
+		<property key="CA_CHECK_SERVER_IP" value="" />
+		<property key="CA_LOGIN_TYPE" value="e" />
+		<!--<property key="CA_LOGIN_TYPE" value="uid" />-->
+	</properties>
+</casInterfaces>

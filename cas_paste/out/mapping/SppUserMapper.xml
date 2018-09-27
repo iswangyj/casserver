@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.jasig.cas.dao.SppUserMapper" >
+  <resultMap id="BaseResultMap" type="org.jasig.cas.entity.SppUser" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="account_id" property="accountId" jdbcType="VARCHAR" />
+    <result column="account" property="account" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="salt" property="salt" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="flag" property="flag" jdbcType="CHAR" />
+    <result column="idcard" property="idcard" jdbcType="VARCHAR" />
+    <result column="client" property="client" jdbcType="VARCHAR" />
+    <result column="comments" property="comments" jdbcType="VARCHAR" />
+    <result column="created_at" property="createdAt" jdbcType="TIMESTAMP" />
+    <result column="updated_at" property="updatedAt" jdbcType="TIMESTAMP" />
+    <result column="user_sn" property="userSn" jdbcType="VARCHAR"/>
+    <result column="mail_from" property="mailFrom" jdbcType="VARCHAR"/>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, account_id, account, password, name, sex, flag, idcard, comments, created_at, updated_at, salt, client, user_sn, mail_from
+  </sql>
+  <select id="selectByPrimaryKey" resultType="org.jasig.cas.entity.SppUser" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from spp_user
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from spp_user
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="org.jasig.cas.entity.SppUser" >
+    insert into spp_user (id, account_id, account, 
+      password, name, sex, department, 
+      parent, person_kind, user_sn, 
+      level_name, secret_level, flag, 
+      idcard, certcode, smtp, 
+      mailfrom, mailname, mailpsw, 
+      usertemplate, cert_style, comments, 
+      createname, createtime, updatename, 
+      updatetime, appname)
+    values (#{id,jdbcType=INTEGER}, #{accountId,jdbcType=VARCHAR}, #{account,jdbcType=VARCHAR}, 
+      #{password,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{sex,jdbcType=CHAR}, #{department,jdbcType=VARCHAR}, 
+      #{parent,jdbcType=VARCHAR}, #{personKind,jdbcType=CHAR}, #{userSn,jdbcType=VARCHAR}, 
+      #{levelName,jdbcType=VARCHAR}, #{secretLevel,jdbcType=CHAR}, #{flag,jdbcType=CHAR}, 
+      #{idcard,jdbcType=VARCHAR}, #{certcode,jdbcType=VARCHAR}, #{smtp,jdbcType=VARCHAR}, 
+      #{mailfrom,jdbcType=VARCHAR}, #{mailname,jdbcType=VARCHAR}, #{mailpsw,jdbcType=VARCHAR}, 
+      #{usertemplate,jdbcType=VARCHAR}, #{certStyle,jdbcType=VARCHAR}, #{comments,jdbcType=VARCHAR}, 
+      #{createname,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, #{updatename,jdbcType=VARCHAR}, 
+      #{updatetime,jdbcType=TIMESTAMP}, #{appname,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="org.jasig.cas.entity.SppUser" >
+    insert into spp_user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="accountId != null" >
+        account_id,
+      </if>
+      <if test="account != null" >
+        account,
+      </if>
+      <if test="password != null" >
+        password,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="sex != null" >
+        sex,
+      </if>
+      <if test="userSn != null" >
+        user_sn,
+      </if>
+      <if test="flag != null" >
+        flag,
+      </if>
+      <if test="idcard != null" >
+        idcard,
+      </if>
+      <if test="mailFrom != null" >
+        mail_from,
+      </if>
+      <if test="comments != null" >
+        comments,
+      </if>
+      <if test="createAt != null" >
+        create_at,
+      </if>
+      <if test="salt != null" >
+        salt,
+      </if>
+      <if test="updateAt != null" >
+        update_at,
+      </if>
+      <if test="client != null" >
+        client,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="accountId != null" >
+        #{accountId,jdbcType=VARCHAR},
+      </if>
+      <if test="account != null" >
+        #{account,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        #{sex,jdbcType=CHAR},
+      </if>
+      <if test="userSn != null" >
+        #{userSn,jdbcType=VARCHAR},
+      </if>
+      <if test="flag != null" >
+        #{flag,jdbcType=CHAR},
+      </if>
+      <if test="idcard != null" >
+        #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="mailFrom != null" >
+        #{mail_from,jdbcType=VARCHAR},
+      </if>
+      <if test="comments != null" >
+        #{comments,jdbcType=VARCHAR},
+      </if>
+      <if test="createname != null" >
+        #{createname,jdbcType=VARCHAR},
+      </if>
+      <if test="createAt != null" >
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="salt != null" >
+        #{salt,jdbcType=VARCHAR},
+      </if>
+      <if test="updateAt != null" >
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="client != null" >
+        #{client,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.jasig.cas.entity.SppUser" >
+    update spp_user
+    <set >
+      <if test="accountId != null" >
+        account_id = #{accountId,jdbcType=VARCHAR},
+      </if>
+      <if test="account != null" >
+        account = #{account,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        sex = #{sex,jdbcType=CHAR},
+      </if>
+      <if test="client != null" >
+        client = #{department,jdbcType=VARCHAR},
+      </if>
+      <if test="parent != null" >
+        parent = #{parent,jdbcType=VARCHAR},
+      </if>
+      <if test="personKind != null" >
+        person_kind = #{personKind,jdbcType=CHAR},
+      </if>
+      <if test="userSn != null" >
+        user_sn = #{userSn,jdbcType=VARCHAR},
+      </if>
+      <if test="levelName != null" >
+        level_name = #{levelName,jdbcType=VARCHAR},
+      </if>
+      <if test="secretLevel != null" >
+        secret_level = #{secretLevel,jdbcType=CHAR},
+      </if>
+      <if test="flag != null" >
+        flag = #{flag,jdbcType=CHAR},
+      </if>
+      <if test="idcard != null" >
+        idcard = #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="certcode != null" >
+        certcode = #{certcode,jdbcType=VARCHAR},
+      </if>
+      <if test="smtp != null" >
+        smtp = #{smtp,jdbcType=VARCHAR},
+      </if>
+      <if test="mailFrom != null" >
+        mail_from = #{mailfrom,jdbcType=VARCHAR},
+      </if>
+      <if test="mailname != null" >
+        mailname = #{mailname,jdbcType=VARCHAR},
+      </if>
+      <if test="mailpsw != null" >
+        mailpsw = #{mailpsw,jdbcType=VARCHAR},
+      </if>
+      <if test="usertemplate != null" >
+        usertemplate = #{usertemplate,jdbcType=VARCHAR},
+      </if>
+      <if test="certStyle != null" >
+        cert_style = #{certStyle,jdbcType=VARCHAR},
+      </if>
+      <if test="comments != null" >
+        comments = #{comments,jdbcType=VARCHAR},
+      </if>
+      <if test="createname != null" >
+        createname = #{createname,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        createtime = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatename != null" >
+        updatename = #{updatename,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null" >
+        updatetime = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="appname != null" >
+        appname = #{appname,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.jasig.cas.entity.SppUser" >
+    update spp_user
+    set account_id = #{accountId,jdbcType=VARCHAR},
+      account = #{account,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=CHAR},
+      department = #{department,jdbcType=VARCHAR},
+      parent = #{parent,jdbcType=VARCHAR},
+      person_kind = #{personKind,jdbcType=CHAR},
+      user_sn = #{userSn,jdbcType=VARCHAR},
+      level_name = #{levelName,jdbcType=VARCHAR},
+      secret_level = #{secretLevel,jdbcType=CHAR},
+      flag = #{flag,jdbcType=CHAR},
+      idcard = #{idcard,jdbcType=VARCHAR},
+      certcode = #{certcode,jdbcType=VARCHAR},
+      smtp = #{smtp,jdbcType=VARCHAR},
+      mailfrom = #{mailfrom,jdbcType=VARCHAR},
+      mailname = #{mailname,jdbcType=VARCHAR},
+      mailpsw = #{mailpsw,jdbcType=VARCHAR},
+      usertemplate = #{usertemplate,jdbcType=VARCHAR},
+      cert_style = #{certStyle,jdbcType=VARCHAR},
+      comments = #{comments,jdbcType=VARCHAR},
+      createname = #{createname,jdbcType=VARCHAR},
+      createtime = #{createtime,jdbcType=TIMESTAMP},
+      updatename = #{updatename,jdbcType=VARCHAR},
+      updatetime = #{updatetime,jdbcType=TIMESTAMP},
+      appname = #{appname,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectByAccount" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    <include refid="Base_Column_List" />
+    from spp_user
+    where account = #{id,jdbcType=VARCHAR}
+  </select>
+</mapper>
